@@ -1,0 +1,52 @@
+# pytorch=2.4.1=py3.10_cuda12.1_cudnn9.1.0_0
+# pytorch-cuda=12.1=ha16c6d3_6
+# pytorch-lightning=2.5.1=pyh506cb10_0
+# torchvision=0.19.1=py310_cu121
+# 
+# opencv=4.10.0
+
+cuda-cccl=12.1.109
+cuda-compiler=12.1.1
+cuda-cudart=12.1.105
+cuda-cudart-dev=12.1.105
+cuda-cudart-static=12.1.105
+cuda-cuobjdump=12.1.111
+cuda-cupti=12.1.105
+cuda-cuxxfilt=12.1.105
+cuda-demo-suite=12.1.105
+cuda-documentation=12.1.105
+cuda-driver-dev=12.1.105
+cuda-gdb=12.1.105
+cuda-libraries=12.1.0
+cuda-libraries-dev=12.1.0
+cuda-nsight=12.1.105
+cuda-nsight-compute=12.1.1
+cuda-nvcc=12.1.105
+cuda-nvdisasm=12.1.105
+cuda-nvml-dev=12.1.105
+cuda-nvprof=12.1.105
+cuda-nvprune=12.1.105
+cuda-nvrtc=12.1.105
+cuda-nvrtc-dev=12.1.105
+cuda-nvtx=12.1.105
+cuda-nvvp=12.1.105
+cuda-opencl=12.1.105
+cuda-opencl-dev=12.1.105
+cuda-profiler-api=12.1.105
+cuda-runtime=12.1.0
+cuda-sanitizer-api=12.1.105
+
+plyfile
+jaxtyping
+einops
+matplotlib
+laspy
+wandb=0.18.7
+
+# gtk3
+# xorg-libxcomposite
+# xorg-libxrandr
+# xorg-libxinerama
+# xorg-libxcursor
+# embree3
+# embree
