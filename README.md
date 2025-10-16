@@ -1,7 +1,7 @@
 <p align="center">
 
   <h1 align="center">UniGS: Unified Geometry-Aware Gaussian Splatting for Multimodal Rendering</h1>
-  <h3 align="center"><a href="https://github.com/xieyuser/UniGS">Paper (soon)</a> | <a href="https://github.com/xieyuser/UniGS">Video (soon)</a> | <a href="https://github.com/xieyuser/gaussian-semantic-normal-rasterization">Multimodal CudaRasterizer</a> |<a href="https://github.com/xieyuser/SIBR_multimodal_viewer">Viewer</a> |  <a href="https://www.bilibili.com/video/BV1EdYyzbEXj/">Viewer Video</a> </h3>
+  <h3 align="center"><a href="https://arxiv.org/abs/2510.12174">Arxiv</a> | <a href="https://github.com/xieyuser/UniGS">Video (soon)</a> | <a href="https://github.com/xieyuser/gaussian-semantic-normal-rasterization">Multimodal CudaRasterizer</a> | <a href="https://github.com/xieyuser/SIBR_multimodal_viewer">Viewer</a> |  <a href="https://www.bilibili.com/video/BV1EdYyzbEXj/">Viewer Video</a> </h3>
   <div align="center"></div>
 </p>
 
