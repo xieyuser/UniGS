@@ -142,13 +142,6 @@ Thanks for [Scaffold-GS](https://github.com/city-super/Scaffold-GS), [Normal-GS]
 }
 ```
 
-@inproceedings{Xie2025UniGSUG,
-  title={UniGS: Unified Geometry-Aware Gaussian Splatting for Multimodal Rendering},
-  author={Yusen Xie and Zhen Huang and Jianhao Jiao and Dimitrios Kanoulas and Jun Ma},
-  year={2025},
-  url={https://api.semanticscholar.org/CorpusID:282064704}
-}
-
 ## License
 Please follow the LICENSE of [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting).
 
