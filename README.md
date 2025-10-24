@@ -1,7 +1,7 @@
 <p align="center">
 
   <h1 align="center">UniGS: Unified Geometry-Aware Gaussian Splatting for Multimodal Rendering</h1>
-  <h3 align="center"><a href="https://github.com/xieyuser/UniGS">Paper (soon)</a> | <a href="https://github.com/xieyuser/UniGS">Video (soon)</a> | <a href="https://github.com/xieyuser/gaussian-semantic-normal-rasterization">Multimodal CudaRasterizer</a> |<a href="https://github.com/xieyuser/SIBR_multimodal_viewer">Viewer</a> |  <a href="https://www.bilibili.com/video/BV1EdYyzbEXj/">Viewer Video</a> </h3>
+  <h3 align="center"><a href="https://arxiv.org/abs/2510.12174">Arxiv</a> | <a href="https://www.bilibili.com/video/BV1BvsAzpEXW/?vd_source=0211af3bb655d5627b96e8718e3af59f">Video</a> | <a href="https://github.com/xieyuser/gaussian-semantic-normal-rasterization">Multimodal CudaRasterizer</a> | <a href="https://github.com/xieyuser/SIBR_multimodal_viewer">Viewer</a> |  <a href="https://www.bilibili.com/video/BV1EdYyzbEXj/">Viewer Video</a> </h3>
   <div align="center"></div>
 </p>
 
@@ -86,21 +86,21 @@ The data structure will be organised as follows:
 
 ```
 data/
-├── dataset_name
-│   ├── scene1/
-│   │   ├── images
-│   │   │   ├── IMG_0.jpg
-│   │   │   ├── IMG_1.jpg
-│   │   │   ├── ...
-│   │   ├── sparse/
-│   │       └──0/
-│   ├── scene2/
-│   │   ├── images
-│   │   │   ├── IMG_0.jpg
-│   │   │   ├── IMG_1.jpg
-│   │   │   ├── ...
-│   │   ├── sparse/
-│   │       └──0/
+??? dataset_name
+?   ??? scene1/
+?   ?   ??? images
+?   ?   ?   ??? IMG_0.jpg
+?   ?   ?   ??? IMG_1.jpg
+?   ?   ?   ??? ...
+?   ?   ??? sparse/
+?   ?       ???0/
+?   ??? scene2/
+?   ?   ??? images
+?   ?   ?   ??? IMG_0.jpg
+?   ?   ?   ??? IMG_1.jpg
+?   ?   ?   ??? ...
+?   ?   ??? sparse/
+?   ?       ???0/
 ...
 ```
 
@@ -122,7 +122,7 @@ After render all scenes, we use `summarize.py` to obtain average metric over all
 find outputs/mipnerf360 -name "per_view.json" > re.txt
 python summarize.py re.txt
 ```
-The results will be summarized as follows：
+The results will be summarized as follows?
 
 <div align="center">
 <img src="./doc/summarize.png" width=80.0% />
@@ -132,15 +132,22 @@ The results will be summarized as follows：
 
 Thanks for [Scaffold-GS](https://github.com/city-super/Scaffold-GS), [Normal-GS](https://github.com/Meng-Wei/Normal-GS.git), [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting), 
 
-<!-- ## Citation
+## Citation
 ```
-@article{xie2024gslivm,
-  title={{GS-LIVM: Real-Time Photo-Realistic LiDAR-Inertial-Visual Mapping with Gaussian Splatting}},
-  author={Xie, Yusen and Huang, Zhenmin and Wu, Jin and Ma, Jun},
-  journal={arXiv preprint arXiv:2410.17084},
-  year={2024}
+@article{xie2025unigs,
+  title={{UniGS: Unified Geometry-Aware Gaussian Splatting for Multimodal Rendering}},
+  author={Xie, Yusen and Huang, Zhenmin and Jiao, Jianhao and Kanoulas, Dimitrios and Ma, Jun},
+  journal={arXiv preprint arXiv:2510.12174},
+  year={2025}
 }
-``` -->
+```
+
+@inproceedings{Xie2025UniGSUG,
+  title={UniGS: Unified Geometry-Aware Gaussian Splatting for Multimodal Rendering},
+  author={Yusen Xie and Zhen Huang and Jianhao Jiao and Dimitrios Kanoulas and Jun Ma},
+  year={2025},
+  url={https://api.semanticscholar.org/CorpusID:282064704}
+}
 
 ## License
 Please follow the LICENSE of [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting).
