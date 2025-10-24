@@ -27,7 +27,7 @@ D. Through extensive experiments, we demonstrate that our method achieves state-
 </div>
 
 
-## Images & Demo Video (soon)
+## Images & Demo Video is Available in Bilibili
 
 <div align="center">
 <img src="./doc/rgb_render_supp.png" width=80.0% />
@@ -86,21 +86,21 @@ The data structure will be organised as follows:
 
 ```
 data/
-??? dataset_name
-?   ??? scene1/
-?   ?   ??? images
-?   ?   ?   ??? IMG_0.jpg
-?   ?   ?   ??? IMG_1.jpg
-?   ?   ?   ??? ...
-?   ?   ??? sparse/
-?   ?       ???0/
-?   ??? scene2/
-?   ?   ??? images
-?   ?   ?   ??? IMG_0.jpg
-?   ?   ?   ??? IMG_1.jpg
-?   ?   ?   ??? ...
-?   ?   ??? sparse/
-?   ?       ???0/
+├── dataset_name
+│   ├── scene1/
+│   │   ├── images
+│   │   │   ├── IMG_0.jpg
+│   │   │   ├── IMG_1.jpg
+│   │   │   ├── ...
+│   │   ├── sparse/
+│   │       └──0/
+│   ├── scene2/
+│   │   ├── images
+│   │   │   ├── IMG_0.jpg
+│   │   │   ├── IMG_1.jpg
+│   │   │   ├── ...
+│   │   ├── sparse/
+│   │       └──0/
 ...
 ```
 
