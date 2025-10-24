@@ -1,6 +1,6 @@
 *.pyc
 .vscode
-temp*
+tmp*
 tmp*.png
 outputs/*
 debug*
@@ -17,9 +17,13 @@ screenshots
 *.dump
 
 submodules
-train*.sh
-*.py
 
 re.txt
-single_train.sh
 tmp.sh
+
+data
+
+
+# omitted
+scene/gaussian_model.py
+train.py
