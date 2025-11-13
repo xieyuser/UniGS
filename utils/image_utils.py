@@ -49,7 +49,6 @@ def vis_normal(normal_map_tensor):
         raise ValueError(
             f"Input tensor must have shape 3 x h x w. {normal_map_tensor.shape}"
         )
-
     # Detach the tensor and convert it to a numpy array
     normal_map_np = normal_map_tensor.detach().cpu().numpy()
 

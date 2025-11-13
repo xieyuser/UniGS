@@ -146,5 +146,5 @@ Thanks for [Scaffold-GS](https://github.com/city-super/Scaffold-GS), [Normal-GS]
 Please follow the LICENSE of [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting).
 
 
-## Cantact
+## Contact
 For any technical issues, please feel free to contact yxie827@connect.hkust-gz.edu.cn.
